@@ -1,5 +1,38 @@
 [
   {
+    "name": "RightNow HLS",
+    "samples": [
+      {
+        "name": "Encrypted Audio with API Key",
+        "uri": "https://s3.amazonaws.com/static.rightnow/Audio/Development100151341_NoStore.m3u8"
+      },
+      {
+        "name": "Shaken Trailer",
+        "uri": "https://player.vimeo.com/external/183674312.m3u8?s=71dee4f4d867406f2c2a394685c6e7564bdf37c6&oauth2_token_id=901768848"
+      },
+      {
+        "name": "Teach Us to Want Trailer",
+        "uri": "https://player.vimeo.com/external/140427206.m3u8?s=fcb38712360812dce0c0f2a3e75cd81b3e2f5a80&oauth2_token_id=901768848"
+      },
+      {
+        "name": "James",
+        "uri": "https://player.vimeo.com/external/138023824.m3u8?s=35d16f7697db8a2e53827df0442ccacb8d0e19d9&oauth2_token_id=901768848"
+      },
+      {
+        "name": "Ephesians",
+        "uri": "https://player.vimeo.com/external/175357498.m3u8?s=5b9694e4a5e9759196bb694f166039530530caaa&oauth2_token_id=901768848"
+      },
+      {
+        "name": "v3-Test",
+        "uri": "https://s3.amazonaws.com/audiotest.rightnow/output/100153890_mobile_pl.m3u8"
+      },
+      {
+        "name": "v4-Test",
+        "uri": "https://s3.amazonaws.com/audiotest.rightnow/output/100153890_mobile_v4.m3u8"
+      }
+    ]
+  },
+  {
     "name": "YouTube DASH",
     "samples": [
       {

@@ -42,7 +42,9 @@ public class DemoApplication extends Application {
   }
 
   public HttpDataSource.Factory buildHttpDataSourceFactory(DefaultBandwidthMeter bandwidthMeter) {
-    return new DefaultHttpDataSourceFactory(userAgent, bandwidthMeter);
+    HttpDataSource.Factory factory = new DefaultHttpDataSourceFactory(userAgent, bandwidthMeter);
+    factory.setDefaultRequestProperty("Bearer-Token", "1234567");
+    return factory;
   }
 
   public boolean useExtensionRenderers() {
